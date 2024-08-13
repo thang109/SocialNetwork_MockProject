@@ -1,7 +1,7 @@
 # Building a Social Networking System Using ASP.NET Core MVC
 
 ## Customer
-- **Contact**: duclinh47th@gmail.com
+- **Contact**: Ho Duc Linh
 
 ## Desciption
 Social Network is a stateful web application built with ASP.NET Core API, SQL Server, and Angular. This project provides a comprehensive platform for users to interact, post updates, manage profiles, and communicate.
