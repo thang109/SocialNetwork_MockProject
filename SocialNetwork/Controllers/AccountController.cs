@@ -253,6 +253,7 @@ namespace SocialNetwork.Controllers
             }
         }
 
+
         [HttpPatch("editProfile")]
         public async Task<IActionResult> EditProfile([FromBody] EditProfileRequest request)
         {
