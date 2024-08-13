@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "D:\\FPT Software\\SocialNetwork\\social-network\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\interfaces\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\interfaces\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\models\\socialmockcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\models\\socialmockcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\maildtos\\mailcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\maildtos\\mailcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\maildtos\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\maildtos\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\confirmemailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,14 +63,6 @@
       "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\models\\socialmockcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\models\\socialmockcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,8 +86,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "SocialNetwork\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T04:58:23.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenRepository.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Repositories\\TokenRepository.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\Repositories\\TokenRepository.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Repositories\\TokenRepository.cs",
+              "RelativeToolTip": "SocialNetwork\\Repositories\\TokenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T04:47:17.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITokenRepository.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Interfaces\\ITokenRepository.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\Interfaces\\ITokenRepository.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Interfaces\\ITokenRepository.cs",
+              "RelativeToolTip": "SocialNetwork\\Interfaces\\ITokenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T04:46:54.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResetPasswordRequest.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\ResetPasswordRequest.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ResetPasswordRequest.cs",
+              "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\ResetPasswordRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T04:32:42.486Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -118,32 +194,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConfirmEmailRequest.cs",
-              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
-              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
-              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
-              "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "DocumentIndex": 5,
+              "Title": "MailContent.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\MailDTOs\\MailContent.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\MailDTOs\\MailContent.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\MailDTOs\\MailContent.cs",
+              "RelativeToolTip": "SocialNetwork\\DTO\\MailDTOs\\MailContent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T05:23:30.803Z"
+              "WhenOpened": "2024-08-13T04:02:23.675Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Controllers\\AccountController.cs",
               "RelativeToolTip": "SocialNetwork\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAHIAAAANAAAA",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAowLUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T09:28:33.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SocialMockContext.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Models\\SocialMockContext.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\Models\\SocialMockContext.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Models\\SocialMockContext.cs",
+              "RelativeToolTip": "SocialNetwork\\Models\\SocialMockContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T09:26:01.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\appsettings.json",
+              "RelativeDocumentMoniker": "SocialNetwork\\appsettings.json",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\appsettings.json",
+              "RelativeToolTip": "SocialNetwork\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-08T09:20:26.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MailSettings.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\MailDTOs\\MailSettings.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\MailDTOs\\MailSettings.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\MailDTOs\\MailSettings.cs",
+              "RelativeToolTip": "SocialNetwork\\DTO\\MailDTOs\\MailSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T04:02:27.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "SendMailService.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Services\\SendMailService.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\Services\\SendMailService.cs",
@@ -151,11 +267,12 @@
               "RelativeToolTip": "SocialNetwork\\Services\\SendMailService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAADQAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T03:40:20.994Z"
+              "WhenOpened": "2024-08-11T03:40:20.994Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\Interfaces\\IUserRepository.cs",
@@ -163,23 +280,38 @@
               "RelativeToolTip": "SocialNetwork\\Interfaces\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T03:30:26.942Z"
+              "WhenOpened": "2024-08-09T03:30:26.942Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\appsettings.json",
-              "RelativeDocumentMoniker": "SocialNetwork\\appsettings.json",
-              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\appsettings.json",
-              "RelativeToolTip": "SocialNetwork\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-08T09:20:26.867Z"
+              "DocumentIndex": 8,
+              "Title": "SignUpRequest.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
+              "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T07:27:58.051Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "ConfirmEmailRequest.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
+              "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T05:23:30.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Models\\User.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\Models\\User.cs",
@@ -187,23 +319,12 @@
               "RelativeToolTip": "SocialNetwork\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T09:26:36.845Z"
+              "WhenOpened": "2024-08-08T09:26:36.845Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SocialMockContext.cs",
-              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Models\\SocialMockContext.cs",
-              "RelativeDocumentMoniker": "SocialNetwork\\Models\\SocialMockContext.cs",
-              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Models\\SocialMockContext.cs",
-              "RelativeToolTip": "SocialNetwork\\Models\\SocialMockContext.cs",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T09:26:01.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "IBaseRepository.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Interfaces\\IBaseRepository.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\Interfaces\\IBaseRepository.cs",
@@ -211,11 +332,12 @@
               "RelativeToolTip": "SocialNetwork\\Interfaces\\IBaseRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T07:10:26.632Z"
+              "WhenOpened": "2024-08-09T07:10:26.632Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Program.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\Program.cs",
@@ -223,11 +345,12 @@
               "RelativeToolTip": "SocialNetwork\\Program.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T09:03:54.405Z"
+              "WhenOpened": "2024-08-08T09:03:54.405Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "ISendMailService.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Interfaces\\ISendMailService.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\Interfaces\\ISendMailService.cs",
@@ -235,11 +358,12 @@
               "RelativeToolTip": "SocialNetwork\\Interfaces\\ISendMailService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T04:17:28.49Z"
+              "WhenOpened": "2024-08-11T04:17:28.49Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Repositories\\BaseRepository.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\Repositories\\BaseRepository.cs",
@@ -247,23 +371,12 @@
               "RelativeToolTip": "SocialNetwork\\Repositories\\BaseRepository.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T07:15:04.049Z"
+              "WhenOpened": "2024-08-09T07:15:04.049Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SignUpRequest.cs",
-              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
-              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
-              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
-              "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T07:27:58.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "ChangePasswordRequest.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ChangePasswordRequest.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\ChangePasswordRequest.cs",
@@ -271,7 +384,8 @@
               "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\ChangePasswordRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T02:24:28.79Z"
+              "WhenOpened": "2024-08-09T02:24:28.79Z",
+              "EditorCaption": ""
             }
           ]
         },

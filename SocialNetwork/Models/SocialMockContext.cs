@@ -27,6 +27,8 @@ public partial class SocialMockContext : DbContext
 
     public virtual DbSet<Post> Posts { get; set; }
 
+    public virtual DbSet<UsedToken> UsedTokens { get; set; }
+
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -148,6 +150,13 @@ public partial class SocialMockContext : DbContext
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Posts__UserId__440B1D61");
+        });
+
+        modelBuilder.Entity<UsedToken>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__UsedToke__3214EC07B05ABFF0");
+
+            entity.Property(e => e.UsedAt).HasColumnType("datetime");
         });
 
         modelBuilder.Entity<User>(entity =>

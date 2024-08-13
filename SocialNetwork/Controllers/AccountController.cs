@@ -126,13 +126,13 @@ namespace SocialNetwork.Controllers
                     return BadRequest("Email không tồn tại.");
                 }
                 var token = GenerateJwtToken(user);
-                var resetLink = Url.Action("ResetPassword", "Account", new { token }, Request.Scheme);
+                var resetLink = Url.Action("ResetPassword", "Account", new { token }, "https");
 
                 var emailContent = new DTO.MailDTOs.MailContent
                 {
                     To = user.Email,
                     Subject = "Password Reset Request",
-                    Body = "<p>Please click the link below to reset your password.</p><a href='{resetLink}'>Reset Password</a>"
+                    Body = $"<p>Please click the link below to reset your password.</p><a href='{resetLink}'>Reset Password</a>"
                 };
                 await _sendMailService.SendMail(emailContent);
 
@@ -143,6 +143,47 @@ namespace SocialNetwork.Controllers
                 return StatusCode(500, new {Error = ex.Message });
             }
         }
+
+        [HttpPost("resetPassword")]
+        public async Task<IActionResult> ResetPassword([FromBody] DTO.AccountDTOs.ResetPasswordRequest request)
+        {
+            try
+            {
+                var handler = new JwtSecurityTokenHandler();
+                var jsonToken = handler.ReadToken(request.Token) as JwtSecurityToken;
+
+                if (jsonToken == null || !jsonToken.Claims.Any())
+                {
+                    return BadRequest("Invalid or expired token.");
+                }
+
+                var emailClaim = jsonToken.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.Sub)?.Value;
+                var purposeClaim = jsonToken.Claims.FirstOrDefault(c => c.Type == "Purpose")?.Value;
+
+                if (emailClaim == null || purposeClaim != "PasswordReset")
+                {
+                    return BadRequest("Invalid token.");
+                }
+
+                var user = _userRepository.GetByEmail(emailClaim);
+
+                if (user == null)
+                {
+                    return BadRequest("User not found.");
+                }
+
+                user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.NewPassword);
+                await _userRepository.UpdateAsync(user);
+                await _userRepository.SaveChangesAsync();
+
+                return Ok("Password has been reset successfully.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Error = ex.Message });
+            }
+        }
+
 
         [HttpPost("confirmemail")]
         public async Task<IActionResult> ConfirmEmail([FromBody] ConfirmEmailRequest request)
