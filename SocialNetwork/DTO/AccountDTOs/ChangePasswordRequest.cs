@@ -6,12 +6,10 @@ namespace SocialNetwork.DTO.AccountDTOs
     {
         [Required]
         [EmailAddress]
-        [Display(Name = "Username")]
+        [Display(Name = "Email")]
         public string UserName { get; set; }
 
         [Required]
-        [Display(Name = "Old Password")]
-        [Compare("Password", ErrorMessage = "The password is not correct.")]
         [DataType(DataType.Password)]
         public string OldPassword { get; set; }
 

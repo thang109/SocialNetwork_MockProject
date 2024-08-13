@@ -20,8 +20,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDistributedMemoryCache();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddTransient<ISendMailService, SendMailService>();
+builder.Services.AddTransient<ITokenRepository, TokenService>();
 builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
 
 builder.Services.AddAuthentication(options =>

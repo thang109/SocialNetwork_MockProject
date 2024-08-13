@@ -6,6 +6,7 @@ using MimeKit;
 using Microsoft.Extensions.Options;
 using MailKit.Security;
 using Humanizer;
+using Microsoft.Extensions.Caching.Distributed;
 
 namespace SocialNetwork.Services
 {
@@ -25,6 +26,7 @@ namespace SocialNetwork.Services
 
         public async Task SendMail(MailContent mailContent)
         {
+            
             var email = new MimeMessage();
             email.Sender = new MailboxAddress(mailSettings.DisplayName, mailSettings.Mail);
             email.From.Add(new MailboxAddress(mailSettings.DisplayName, mailSettings.Mail));

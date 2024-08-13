@@ -16,6 +16,7 @@ using SocialNetwork.Models;
 using Microsoft.Data.SqlClient;
 using SocialNetwork.DTO.AccountDTOs;
 using SocialNetwork.Interfaces;
+using Microsoft.Extensions.Caching.Distributed;
 
 namespace SocialNetwork.Controllers
 {
@@ -27,13 +28,17 @@ namespace SocialNetwork.Controllers
         private readonly IConfiguration _configuration;
         private readonly IUserRepository _userRepository;
         private readonly ISendMailService _sendMailService;
+        private readonly ITokenRepository _tokenRepository;
+        private readonly IDistributedCache _cache;
             
-        public AccountController(SocialMockContext context, IConfiguration configuration, IUserRepository userRepository, ISendMailService sendMailService)
+        public AccountController(SocialMockContext context, IConfiguration configuration, IUserRepository userRepository, ISendMailService sendMailService, ITokenRepository tokenRepository, IDistributedCache cache)
         {
             _context = context;
             _configuration = configuration;
             _userRepository = userRepository;
             _sendMailService = sendMailService;
+            _tokenRepository = tokenRepository;
+            _cache = cache;
         }
 
         [HttpPost("signup")]
@@ -83,6 +88,30 @@ namespace SocialNetwork.Controllers
                 return StatusCode(500, new { Error = "An error occurred while processing your request." });
             }
 
+        }
+
+        [HttpPost("confirmemail")]
+        public async Task<IActionResult> ConfirmEmail([FromBody] ConfirmEmailRequest request)
+        {
+            try
+            {
+                var user = _userRepository.GetByEmail(request.Email);
+                if (user == null || user.ConfirmationCode != request.Code)
+                {
+                    return BadRequest(new { Error = "Invalid confirmation code or email address." });
+                }
+
+                user.IsEmailConfirmed = true;
+                user.ConfirmationCode = null;
+                await _userRepository.UpdateAsync(user);
+                await _userRepository.SaveChangesAsync();
+
+                return Ok(new { Message = "Email confirmed successfully. You can now log in." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Error = "An error occurred while processing your request." });
+            }
         }
 
         [HttpPost("login")]
@@ -156,7 +185,10 @@ namespace SocialNetwork.Controllers
                 {
                     return BadRequest("Invalid or expired token.");
                 }
-
+                if(await _tokenRepository.IsTokenUsedAsync(request.Token))
+                {
+                    return BadRequest("Token has already been used.");
+                }
                 var emailClaim = jsonToken.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.Sub)?.Value;
                 var purposeClaim = jsonToken.Claims.FirstOrDefault(c => c.Type == "Purpose")?.Value;
 
@@ -175,37 +207,13 @@ namespace SocialNetwork.Controllers
                 user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.NewPassword);
                 await _userRepository.UpdateAsync(user);
                 await _userRepository.SaveChangesAsync();
+                await _tokenRepository.MarkTokenAsUsedAsync(request.Token);
 
                 return Ok("Password has been reset successfully.");
             }
             catch (Exception ex)
             {
                 return StatusCode(500, new { Error = ex.Message });
-            }
-        }
-
-
-        [HttpPost("confirmemail")]
-        public async Task<IActionResult> ConfirmEmail([FromBody] ConfirmEmailRequest request)
-        {
-            try
-            {
-                var user = _userRepository.GetByEmail(request.Email);
-                if (user == null || user.ConfirmationCode != request.Code)
-                {
-                    return BadRequest(new { Error = "Invalid confirmation code or email address." });
-                }
-
-                user.IsEmailConfirmed = true;
-                user.ConfirmationCode = null;
-                await _userRepository.UpdateAsync(user);
-                await _userRepository.SaveChangesAsync();
-
-                return Ok(new { Message = "Email confirmed successfully. You can now log in." });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { Error = "An error occurred while processing your request." });
             }
         }
 
@@ -219,14 +227,14 @@ namespace SocialNetwork.Controllers
                     return BadRequest(ModelState);
                 }
 
-                var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == request.UserName);
+                var user = _userRepository.GetByEmail(request.UserName);
+
                 if (user == null || !BCrypt.Net.BCrypt.Verify(request.OldPassword, user.PasswordHash))
                 {
-                    return Unauthorized();
+                    return Unauthorized(new { Error = "Invalid email or password. Please try again" });
                 }
 
                 user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.NewPassword);
-
                 await _userRepository.UpdateAsync(user);
                 await _userRepository.SaveChangesAsync();
 
@@ -237,7 +245,7 @@ namespace SocialNetwork.Controllers
                     Body = "<p>Your password has been changed successfully.</p>"
                 };
                 await _sendMailService.SendMail(emailContent);
-                return Ok("Mật khẩu đã được thay đổi.");
+                return Ok("Password Changed Successfully");
             }
             catch (Exception ex)
             {
@@ -255,13 +263,13 @@ namespace SocialNetwork.Controllers
                     return BadRequest(ModelState);
                 }
 
-                var user = _userRepository?.GetByEmail(request.UserName);
+                var user = _userRepository?.GetByEmail(request.Email);
                 if (user == null)
                 {
                     return NotFound();
                 }
 
-                user.Email = request.Email ?? user.Email;
+                user.UserName = request.UserName ?? user.UserName;
                 user.Bio = request.Bio ?? user.Bio;
                 user.ProfilePictureUrl = request.ProfilePictureUrl ?? user.ProfilePictureUrl;
                 user.UpdatedAt = DateTime.UtcNow;
@@ -300,7 +308,7 @@ namespace SocialNetwork.Controllers
                 issuer: _configuration["Jwt:Issuer"],
                 audience: _configuration["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(30),
+                expires: DateTime.Now.AddMinutes(10),
                 signingCredentials: creds);
 
             return new JwtSecurityTokenHandler().WriteToken(token);

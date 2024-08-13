@@ -4,6 +4,7 @@ namespace SocialNetwork.DTO.AccountDTOs
 {
     public class ResetPasswordRequest
     {
+        [Required]
         public string Token { get; set; }
 
         [Required(ErrorMessage = "Password is required.")]
