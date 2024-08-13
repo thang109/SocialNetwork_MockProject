@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPT Software\\SocialNetwork\\SocialNetwork\\SocialNetwork.csproj": {}
+    "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\SocialNetwork.csproj": {}
   },
   "projects": {
-    "D:\\FPT Software\\SocialNetwork\\SocialNetwork\\SocialNetwork.csproj": {
+    "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\SocialNetwork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT Software\\SocialNetwork\\SocialNetwork\\SocialNetwork.csproj",
+        "projectUniqueName": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\SocialNetwork.csproj",
         "projectName": "SocialNetwork",
-        "projectPath": "D:\\FPT Software\\SocialNetwork\\SocialNetwork\\SocialNetwork.csproj",
+        "projectPath": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\SocialNetwork.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT Software\\SocialNetwork\\SocialNetwork\\obj\\",
+        "outputPath": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "idZ8Ch/2eZA=",
+  "dgSpecHash": "gbr1IBIYoDQ=",
   "success": true,
-  "projectFilePath": "D:\\FPT Software\\SocialNetwork\\SocialNetwork\\SocialNetwork.csproj",
+  "projectFilePath": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\SocialNetwork.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
