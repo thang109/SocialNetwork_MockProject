@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "D:\\FPT Software\\SocialNetwork\\social-network\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\editprofilerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\editprofilerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\confirmemailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\confirmemailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\confirmemailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\confirmemailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\accountdtos\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\accountdtos\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,7 +158,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfirmEmailRequest.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
+              "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T05:23:30.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\LoginRequest.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\LoginRequest.cs",
+              "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T07:37:57.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ForgotPasswordRequest.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\ForgotPasswordRequest.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ForgotPasswordRequest.cs",
+              "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\ForgotPasswordRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T08:14:11.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ResetPasswordRequest.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ResetPasswordRequest.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\ResetPasswordRequest.cs",
@@ -166,19 +205,8 @@
               "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\ResetPasswordRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T04:32:42.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SignUpRequest.cs",
-              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
-              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
-              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
-              "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T07:27:58.051Z"
+              "WhenOpened": "2024-08-13T04:32:42.486Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -188,71 +216,49 @@
               "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\EditProfileRequest.cs",
               "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\EditProfileRequest.cs",
               "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\EditProfileRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T07:40:53.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConfirmEmailRequest.cs",
-              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
-              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
-              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
-              "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\ConfirmEmailRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T05:23:30.803Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ChangePasswordRequest.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ChangePasswordRequest.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\ChangePasswordRequest.cs",
               "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ChangePasswordRequest.cs",
               "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\ChangePasswordRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T02:24:28.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "SocialNetwork\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "SocialNetwork\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAPQAAAAAAAAAAAAowAQBAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T09:28:33.303Z",
+              "WhenOpened": "2024-08-09T02:24:28.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\LoginRequest.cs",
-              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\LoginRequest.cs",
-              "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\LoginRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Title": "SignUpRequest.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
+              "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\SignUpRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T07:37:57.476Z"
+              "WhenOpened": "2024-08-09T07:27:58.051Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ForgotPasswordRequest.cs",
-              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ForgotPasswordRequest.cs",
-              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\AccountDTOs\\ForgotPasswordRequest.cs",
-              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\AccountDTOs\\ForgotPasswordRequest.cs",
-              "RelativeToolTip": "SocialNetwork\\DTO\\AccountDTOs\\ForgotPasswordRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SocialNetwork\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SocialNetwork\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAtwLAAAABqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T08:14:11.049Z"
+              "WhenOpened": "2024-08-08T09:28:33.303Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -41,7 +41,7 @@ namespace SocialNetwork.Controllers
             _cache = cache;
         }
 
-        [HttpPost("signup")]
+        [HttpPost("signUp")]
         public async Task<IActionResult> SignUp([FromBody] SignUpRequest request)
         {
             try
@@ -90,7 +90,7 @@ namespace SocialNetwork.Controllers
 
         }
 
-        [HttpPost("confirmemail")]
+        [HttpPost("confirmEmail")]
         public async Task<IActionResult> ConfirmEmail([FromBody] ConfirmEmailRequest request)
         {
             try
@@ -144,7 +144,7 @@ namespace SocialNetwork.Controllers
             }
         }
         
-        [HttpPost("forgotPass")]
+        [HttpPost("forgotPassword")]
         public async Task<IActionResult> ForgotPass([FromBody] DTO.AccountDTOs.ForgotPasswordRequest request)
         {
             try
@@ -217,7 +217,7 @@ namespace SocialNetwork.Controllers
             }
         }
 
-        [HttpPatch("changePass")]
+        [HttpPatch("changePassword")]
         public async Task<IActionResult> ChangePass([FromBody] ChangePasswordRequest request)
         {
             try
@@ -252,7 +252,6 @@ namespace SocialNetwork.Controllers
                 return StatusCode(500, new { Error = ex.Message });
             }
         }
-
 
         [HttpPatch("editProfile")]
         public async Task<IActionResult> EditProfile([FromBody] EditProfileRequest request)

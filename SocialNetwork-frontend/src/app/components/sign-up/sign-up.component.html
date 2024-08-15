@@ -1,0 +1,17 @@
+<p>sign-up works!</p>
+<form (ngSubmit)="onSubmit()">
+    <label for="userName">User Name:</label>
+    <input type="text" id="userName" [(ngModel)]="signUpRequest.userName" name="userName">
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" [(ngModel)]="signUpRequest.email" name="email">
+  
+    <label for="password">Password:</label>
+    <input type="password" id="password" [(ngModel)]="signUpRequest.password" name="password">
+  
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" [(ngModel)]="signUpRequest.confirmPassword" name="confirmPassword">
+  
+    <button type="submit">Sign Up</button>
+  </form>
+  
