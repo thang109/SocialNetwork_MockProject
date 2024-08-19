@@ -257,3 +257,4 @@ D:\FPT Software\SocialNetwork\social-network\SocialNetwork\obj\Debug\net8.0\refi
 D:\FPT Software\SocialNetwork\social-network\SocialNetwork\obj\Debug\net8.0\SocialNetwork.pdb
 D:\FPT Software\SocialNetwork\social-network\SocialNetwork\obj\Debug\net8.0\SocialNetwork.genruntimeconfig.cache
 D:\FPT Software\SocialNetwork\social-network\SocialNetwork\obj\Debug\net8.0\ref\SocialNetwork.dll
+D:\FPT Software\SocialNetwork\social-network\SocialNetwork\bin\Debug\net8.0\AutoMapper.dll

@@ -8,6 +8,8 @@ using SocialNetwork.Models;
 using SocialNetwork.Repositories;
 using SocialNetwork.Services;
 using System.Text;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,15 +17,23 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SocialMockContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Social")));
 
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.DictionaryKeyPolicy = JsonNamingPolicy.CamelCase;
+        options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+    });
 
-builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddTransient<ISendMailService, SendMailService>();
 builder.Services.AddTransient<ITokenRepository, TokenService>();
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
 
 builder.Services.AddAuthentication(options =>
@@ -55,6 +65,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(options => options.AllowAnyOrigin());
 
 app.UseAuthentication();
 
