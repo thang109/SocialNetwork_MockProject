@@ -27,6 +27,8 @@ public partial class SocialMockContext : DbContext
 
     public virtual DbSet<Post> Posts { get; set; }
 
+    public virtual DbSet<PostShare> PostShares { get; set; }
+
     public virtual DbSet<UsedToken> UsedTokens { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
@@ -150,6 +152,25 @@ public partial class SocialMockContext : DbContext
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Posts__UserId__440B1D61");
+        });
+
+        modelBuilder.Entity<PostShare>(entity =>
+        {
+            entity.HasKey(e => e.ShareId).HasName("PK__PostShar__D32A3FEEC2D8453C");
+
+            entity.ToTable("PostShare");
+
+            entity.Property(e => e.SharedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+
+            entity.HasOne(d => d.Post).WithMany(p => p.PostShares)
+                .HasForeignKey(d => d.PostId)
+                .HasConstraintName("FK__PostShare__PostI__03F0984C");
+
+            entity.HasOne(d => d.User).WithMany(p => p.PostShares)
+                .HasForeignKey(d => d.UserId)
+                .HasConstraintName("FK__PostShare__UserI__04E4BC85");
         });
 
         modelBuilder.Entity<UsedToken>(entity =>
