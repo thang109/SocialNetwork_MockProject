@@ -8,7 +8,7 @@ using System.Security.Claims;
 
 namespace SocialNetwork.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("posts")]
     [ApiController]
     public class PostController : ControllerBase
     {
@@ -30,7 +30,8 @@ namespace SocialNetwork.Controllers
                 {
                     return BadRequest(ModelState);
                 }
-                var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+
+                var userIdClaim = User.FindFirst("userId");
                 if(userIdClaim == null)
                 {
                     return Unauthorized("User not authenticated");
@@ -61,7 +62,7 @@ namespace SocialNetwork.Controllers
             }
         }
 
-        [HttpPut("post/{id}")]
+        [HttpPut("edit/{id}")]
         public async Task<IActionResult> EditPost([FromBody] EditPost editPost, int id)
         {
             try
@@ -151,6 +152,9 @@ namespace SocialNetwork.Controllers
                 }
 
                 var comment = _mapper.Map<Comment>(commentPost);
+                comment.PostId = id;
+                comment.CreatedAt = DateTime.Now;
+                comment.UpdatedAt = DateTime.Now;
                 post.Comments.Add(comment);
 
                 await _postRepository.SaveChangesAsync();

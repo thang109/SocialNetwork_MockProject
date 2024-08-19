@@ -20,7 +20,7 @@ using Microsoft.Extensions.Caching.Distributed;
 
 namespace SocialNetwork.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("accounts")]
     [ApiController]
     public class AccountController : ControllerBase
     {
@@ -297,7 +297,7 @@ namespace SocialNetwork.Controllers
         {
             new Claim(JwtRegisteredClaimNames.Sub, user.Email),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-            new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+            new Claim("userId", user.UserId.ToString()),
             new Claim("Purpose", "PasswordReset, PasswordChange"),
         };
 
