@@ -66,7 +66,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors(options => options.AllowAnyOrigin());
+app.UseCors(builder =>
+    builder.AllowAnyHeader()
+           .AllowAnyOrigin()
+           .AllowAnyMethod());
 
 app.UseAuthentication();
 
