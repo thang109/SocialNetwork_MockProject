@@ -8,12 +8,12 @@ import { SignUpRequest, ConfirmEmailRequest, LoginRequest, ForgotPasswordRequest
 })
 export class AccountService {
 
-  private baseUrl = 'https://localhost:7131/api/Account';
+  private baseUrl = 'https://localhost:7131/accounts';
 
   constructor(private http: HttpClient) { }
 
   signUp(signUpRequest: SignUpRequest): Observable<any> {
-    return this.http.post(`${this.baseUrl}/signup`, signUpRequest);
+    return this.http.post(`${this.baseUrl}/signUp`, signUpRequest);
   }
   confirmEmail(confirmEmailRequest: ConfirmEmailRequest): Observable<any> {
     return this.http.post(`${this.baseUrl}/confirmEmail`, confirmEmailRequest);
