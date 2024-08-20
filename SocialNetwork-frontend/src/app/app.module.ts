@@ -12,6 +12,13 @@ import { EditProfileComponent } from './components/edit-profile/edit-profile.com
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { provideHttpClient, withFetch } from '@angular/common/http';
+import { HeaderComponent } from './components/layouts/main/header/header.component';
+import { FooterComponent } from './components/layouts/main/footer/footer.component';
+import { LeftSideBarComponent } from './components/layouts/main/left-side-bar/left-side-bar.component';
+import { RightSideBarComponent } from './components/layouts/main/right-side-bar/right-side-bar.component';
+import { MainBarComponent } from './components/layouts/main/main-bar/main-bar.component';
+import { HomepageComponent } from './components/pages/homepage/homepage.component';
+import { ProfileComponent } from './components/pages/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +29,14 @@ import { provideHttpClient, withFetch } from '@angular/common/http';
     ForgotPassComponent,
     ResetPassComponent,
     ChangePassComponent,
-    EditProfileComponent
+    EditProfileComponent,
+    HeaderComponent,
+    FooterComponent,
+    LeftSideBarComponent,
+    RightSideBarComponent,
+    MainBarComponent,
+    HomepageComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
