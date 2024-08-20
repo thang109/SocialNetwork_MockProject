@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\FPT Software\\SocialNetwork\\social-network\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\services\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\services\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\models\\postshare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\models\\postshare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\dto\\postdtos\\sharepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\dto\\postdtos\\sharepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|solutionrelative:socialnetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFFAD2A5-A02E-4088-BC65-2AC0649EC2C9}|SocialNetwork\\SocialNetwork.csproj|d:\\fpt software\\socialnetwork\\social-network\\socialnetwork\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,47 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 14,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SharePost.cs",
-              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\PostDTOs\\SharePost.cs",
-              "RelativeDocumentMoniker": "SocialNetwork\\DTO\\PostDTOs\\SharePost.cs",
-              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\DTO\\PostDTOs\\SharePost.cs",
-              "RelativeToolTip": "SocialNetwork\\DTO\\PostDTOs\\SharePost.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T10:00:00.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PostShare.cs",
-              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Models\\PostShare.cs",
-              "RelativeDocumentMoniker": "SocialNetwork\\Models\\PostShare.cs",
-              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Models\\PostShare.cs",
-              "RelativeToolTip": "SocialNetwork\\Models\\PostShare.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T09:59:54.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Services\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "SocialNetwork\\Services\\MappingProfile.cs",
-              "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Services\\MappingProfile.cs",
-              "RelativeToolTip": "SocialNetwork\\Services\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T09:44:06.706Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -137,33 +86,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PostController.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Controllers\\PostController.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\Controllers\\PostController.cs",
               "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Controllers\\PostController.cs",
               "RelativeToolTip": "SocialNetwork\\Controllers\\PostController.cs",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAAAD4AAAAJAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T09:43:45.604Z",
+              "WhenOpened": "2024-08-19T10:22:38.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Program.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\Program.cs",
               "ToolTip": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Program.cs",
               "RelativeToolTip": "SocialNetwork\\Program.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAvwEUAAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAvwDsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T09:35:20.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\Controllers\\AccountController.cs",
@@ -176,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Comment.cs",
               "DocumentMoniker": "D:\\FPT Software\\SocialNetwork\\social-network\\SocialNetwork\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "SocialNetwork\\Models\\Comment.cs",
