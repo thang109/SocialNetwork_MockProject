@@ -33,4 +33,7 @@ export class AccountService {
   editProfile(editProfileRequest: EditProfileRequest): Observable<any> {
     return this.http.patch(`${this.baseUrl}/editProfile`, editProfileRequest);
   }
+  logout(): Observable<any>{
+    return this.http.post(`${this.baseUrl}/logout`, {});
+  }
 }

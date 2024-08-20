@@ -10,7 +10,7 @@ import { ResetPassComponent } from './components/reset-pass/reset-pass.component
 import { ChangePassComponent } from './components/change-pass/change-pass.component';
 import { EditProfileComponent } from './components/edit-profile/edit-profile.component';
 import { RouterModule } from '@angular/router';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { HeaderComponent } from './components/layouts/main/header/header.component';
 import { FooterComponent } from './components/layouts/main/footer/footer.component';
@@ -42,7 +42,8 @@ import { ProfileComponent } from './components/pages/profile/profile.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([]),
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideClientHydration(),

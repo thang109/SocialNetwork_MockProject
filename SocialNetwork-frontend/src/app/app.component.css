@@ -1,0 +1,16 @@
+
+app-header {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+  }
+  
+  app-footer {
+    display: block;
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  

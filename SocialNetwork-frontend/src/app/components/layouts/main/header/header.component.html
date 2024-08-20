@@ -1,0 +1,70 @@
+<nav class="navbar">
+    <div class="nav-left"><img class="logo" src="images/logo.png" alt="">
+        <ul class="navlogo" *ngIf="isLoggedIn">
+            <li><img src="images/notification.png"></li>
+            <li><img src="images/inbox.png"></li>
+            <li><img src="images/video.png"></li>
+        </ul>
+    </div>
+    <div class="nav-right">
+        <div class="search-box" *ngIf="isLoggedIn">
+            <img src="images/search.png" alt="">
+            <input type="text" placeholder="Search">
+        </div>
+
+        <!-- Display Login/Sign Up if not logged in -->
+        <div *ngIf="!isLoggedIn" class="auth-button">
+            <button (click)="goToLogin()" class="btn btn-login">Log In</button>
+            <button (click)="goToSignUp()" class="btn btn-logout">Sign Up</button>
+        </div>
+
+        <!-- Display profile image if logged in -->
+        <div class="profile-image online" *ngIf="isLoggedIn" (click)="toggleUserSettings()">
+            <img src="images/profile-pic.png" alt="">
+        </div>
+    </div>
+
+    <!-- User Settings Dropdown -->
+    <div class="user-settings" *ngIf="isUserSettingsVisible && isLoggedIn">
+        <div class="profile-darkButton">
+            <div class="user-profile">
+                <img src="images/profile-pic.png" alt="">
+                <div>
+                    <p> Alex Carry</p>
+                    <a href="#" (click)="goToProfile()">See your profile</a>
+                </div>
+            </div>
+            <div id="dark-button" (click)="darkModeON()">
+                <span></span>
+            </div>
+        </div>
+        <hr>
+        <div class="user-profile">
+            <img src="images/feedback.png" alt="">
+            <div>
+                <p> Give Feedback</p>
+                <a href="#">Help us to improve</a>
+            </div>
+        </div>
+        <hr>
+        <div class="settings-links">
+            <img src="images/setting.png" alt="" class="settings-icon">
+            <a href="#">Settings & Privacy <img src="images/arrow.png" alt=""></a>
+        </div>
+
+        <div class="settings-links">
+            <img src="images/help.png" alt="" class="settings-icon">
+            <a href="#">Help & Support <img src="images/arrow.png" alt=""></a>
+        </div>
+
+        <div class="settings-links">
+            <img src="images/Display.png" alt="" class="settings-icon">
+            <a href="#">Display & Accessibility <img src="images/arrow.png" alt=""></a>
+        </div>
+
+        <div class="settings-links">
+            <img src="images/logout.png" alt="" class="settings-icon">
+            <a href="#" (click)="logout()">Logout <img src="images/arrow.png" alt=""></a>
+        </div>
+    </div>
+</nav>

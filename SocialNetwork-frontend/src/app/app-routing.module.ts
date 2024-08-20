@@ -8,7 +8,11 @@ import { ForgotPassComponent } from './components/forgot-pass/forgot-pass.compon
 import { ResetPassComponent } from './components/reset-pass/reset-pass.component';
 import { ChangePassComponent } from './components/change-pass/change-pass.component';
 import { EditProfileComponent } from './components/edit-profile/edit-profile.component';
+import { HeaderComponent } from './components/layouts/main/header/header.component';
+import { HomepageComponent } from './components/pages/homepage/homepage.component';
+
 const routes: Routes = [
+  {path: '', component: HomepageComponent},
   {path: 'sign-up', component: SignUpComponent},
   {path: 'confirm-email', component: ConfirmEmailComponent},
   {path: 'log-in', component: LogInComponent},
@@ -16,7 +20,7 @@ const routes: Routes = [
   {path: 'reset-pass', component: ResetPassComponent},
   {path: 'change-pass', component: ChangePassComponent},
   {path: 'edit-profile', component: EditProfileComponent},
-  {path: '**', component: AppComponent},
+  {path: '**', redirectTo: 'log-in'},
 ];
 
 @NgModule({
