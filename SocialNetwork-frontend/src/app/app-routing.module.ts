@@ -8,6 +8,7 @@ import { ForgotPassComponent } from './components/forgot-pass/forgot-pass.compon
 import { ResetPassComponent } from './components/reset-pass/reset-pass.component';
 import { ChangePassComponent } from './components/change-pass/change-pass.component';
 import { EditProfileComponent } from './components/edit-profile/edit-profile.component';
+import { HomepageComponent } from './components/pages/homepage/homepage.component';
 const routes: Routes = [
   {path: 'sign-up', component: SignUpComponent},
   {path: 'confirm-email', component: ConfirmEmailComponent},
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'reset-pass', component: ResetPassComponent},
   {path: 'change-pass', component: ChangePassComponent},
   {path: 'edit-profile', component: EditProfileComponent},
+  {path: 'home-page', component: HomepageComponent},
   {path: '**', component: AppComponent},
 ];
 
